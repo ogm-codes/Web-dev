@@ -69,6 +69,7 @@ nav ul li a{
 }
 
 .text-container button{
+    display: block;
     width: 130px;
     height: 45px;
     outline: none;
@@ -100,7 +101,6 @@ button:active{
     position: relative;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .about-text{
@@ -118,4 +118,31 @@ button:active{
     color: dimgray;
     font-size: 13px;
 }
+
+.gallery-container{
+    height: 500px;
+    background-color: silver;
+    padding: 2% 10% 0px 10%;
+    
+}
+
+.gallery-text{
+    width: 550px;
+    font-size: 30px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1,.box-2,.box-3{
+    width: 300px;
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+
+}
+
 
